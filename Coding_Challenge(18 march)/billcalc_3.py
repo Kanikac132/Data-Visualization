@@ -9,4 +9,4 @@ discount = float(input("Enter discount percentage: "))
 final_price = price * (100 - discount) / 100
 
 # Displaying the result
-print("Final price after discount:", final_price
+print("Final price after discount:", final_price)
