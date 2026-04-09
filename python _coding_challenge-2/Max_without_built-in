@@ -1,0 +1,11 @@
+# program to find max without using built-in functions
+# Taking input from user
+nums = list(map(int, input("Enter numbers: ").split()))
+
+max_val = nums[0]
+
+for i in nums:
+    if i > max_val:
+        max_val = i
+
+print("Maximum =", max_val)
