@@ -1,4 +1,4 @@
-#  function to return all even numbers from lis
+#  function to return all even numbers from list
 # A report filters values
 def even_numbers(lst):
     res = []
